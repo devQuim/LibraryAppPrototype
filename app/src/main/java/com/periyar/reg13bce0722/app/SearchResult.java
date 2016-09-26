@@ -121,7 +121,7 @@ public class SearchResult extends ActionBarActivity {
                 BufferedReader bufferedReader = null;
                 try {
 
-                    URL url = new URL("http://myperiyar.esy.es/SearchBooks.php?Stitle="+MyLib.Stitle+"&Sauthor="+MyLib.Sauthor+"&Spublisher="+MyLib.Spublisher);
+                    URL url = new URL("http://xyz.php?Stitle="+MyLib.Stitle+"&Sauthor="+MyLib.Sauthor+"&Spublisher="+MyLib.Spublisher); //Your server side script's url address
                     HttpURLConnection con = (HttpURLConnection) url.openConnection();
                     StringBuilder sb = new StringBuilder();
                     con.setConnectTimeout(300000);
