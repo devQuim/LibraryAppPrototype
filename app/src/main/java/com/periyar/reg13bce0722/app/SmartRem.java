@@ -166,7 +166,7 @@ setiss=(Button)findViewById(R.id.setiss);
                 params.put("RecommBy",lafCache.regid);
                 params.put("Title",issbook1);
                 params.put("Date",date);
-                String res = sendPostRequest("http://myperiyar.esy.es/SmartRem.php", params);
+                String res = sendPostRequest("http://xyz.php", params);  //Your server side script's url address
                 return res;
             }
         }
@@ -436,7 +436,7 @@ setiss=(Button)findViewById(R.id.setiss);
             @Override
             protected String doInBackground(Void... params) {
 
-                String s =sendGetRequestParam("http://myperiyar.esy.es/delSmartRem.php?Title=", GetAlImage5.title[po].toUpperCase().trim(),lafCache.regid);
+                String s =sendGetRequestParam("http://xyz.php?Title=", GetAlImage5.title[po].toUpperCase().trim(),lafCache.regid);
 
                 return s;
             }
