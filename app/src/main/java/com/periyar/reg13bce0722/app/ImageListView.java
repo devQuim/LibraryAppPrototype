@@ -33,7 +33,7 @@ public class ImageListView extends ActionBarActivity implements AdapterView.OnIt
 
     private ListView listView;
     private Toolbar toolbar;
-    public static final String GET_IMAGE_URL="http://myperiyar.esy.es/lafret.php";
+    public static final String GET_IMAGE_URL="http://xyz.php";  //Your server side script's url address
 
     public GetAlImage getAlImage;
 
