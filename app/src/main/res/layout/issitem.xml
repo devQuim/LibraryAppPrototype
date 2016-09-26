@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customshape4"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+android:background="@drawable/customshape4"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/isstit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="5dp"
+            android:text="Title : World of Luck"
+            android:textColor="@color/ColorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/issd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Issue Date : 10/10/1000"
+
+            android:textColor="@color/ColorPrimary"
+            android:textSize="16sp"
+            android:textStyle="normal"
+
+            />
+
+        <TextView
+            android:background="@drawable/customshape4"
+            android:padding="5dp"
+            android:gravity="center"
+            android:id="@+id/issleft"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="5dp"
+            android:text="Days Left : 10"
+
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+  <style name="ResultButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+    <item name="android:layout_width">0dip</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_weight">1</item>
+  </style>
+  <style name="ShareButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <!-- colorPrimary is used, for instance, for the default ActionBar
+             (but not Toolbar) background.
+              We specify the same color for the toolbar background in
+              toolbar.xml.. -->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@color/ColorPrimary</item>
+
+        <!-- colorPrimaryDark is used for the status bar (with the
+             battery, clock, etc). -->
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+
+        <!-- colorAccent is used as the default value for
+             colorControlActivated which is used to tint widgets. -->
+        <item name="colorAccent">@android:color/white </item>
+    </style>
+
+
+    <style name="GalaxyZooThemeToolbarDarkOverflow" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+
+        <item name="actionMenuTextColor">@color/ColorPrimaryDark</item>
+
+        <item name="android:textColorSecondary">@android:color/white</item>
+
+        <!-- This would set the toolbar's background color,
+              but setting this also changes the popup menu's background,
+              even if we define popupTheme for our <Toolbar> -->
+    <item name="android:background">@color/ColorPrimary</item>
+    </style>
+
+</resources>

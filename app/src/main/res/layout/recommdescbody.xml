@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:padding="0dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="@color/ColorPrimary"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/customshape"
+
+            android:padding="20dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:textStyle="bold"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Title"
+                android:textSize="22sp"
+                android:textColor="@color/ColorPrimary"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:ems="10"
+                android:id="@+id/Titled"
+android:background="@drawable/customshape4"
+                android:layout_margin="5dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/ColorPrimaryDark"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/customshape"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Author"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="@color/ColorPrimary"
+                android:layout_margin="5dp"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:ems="10"
+                android:background="@drawable/customshape4"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/ColorPrimaryDark"
+                android:id="@+id/Authord"
+                android:layout_margin="5dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/customshape"
+            android:padding="20dp">
+
+            <TextView
+                android:textColor="@color/ColorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ISBN"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+
+                android:layout_margin="5dp"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/ColorPrimaryDark"
+                android:ems="10"
+                android:background="@drawable/customshape4"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/ISBNd"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/customshape"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Publisher"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="@color/ColorPrimary"
+                android:layout_margin="5dp"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:ems="10"
+                android:padding="10dp"
+                android:background="@drawable/customshape4"
+                android:textColor="@color/ColorPrimaryDark"
+                android:id="@+id/Publisherd"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/customshape"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="No. of Copies"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/ColorPrimary"
+                android:layout_margin="5dp"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:ems="10"
+                android:textColor="@color/ColorPrimaryDark"
+                android:id="@+id/Copiesd"
+                android:textSize="15sp"
+                android:background="@drawable/customshape4"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/customshape"
+
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Remarks"
+                android:gravity="center_vertical"
+                android:textColor="@color/ColorPrimary"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:ems="10"
+                android:textColor="@color/ColorPrimaryDark"
+                android:id="@+id/Remarksd"
+                android:layout_margin="5dp"
+                android:textSize="15sp"
+                android:background="@drawable/customshape4"
+                android:textStyle="bold"
+                android:padding="10dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/customshape"
+
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ratings (by Faculties)"
+                android:gravity="center_vertical"
+                android:textColor="@color/ColorPrimary"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:ems="10"
+                android:textColor="@color/ColorPrimaryDark"
+                android:id="@+id/Rated"
+                android:layout_margin="5dp"
+                android:textSize="15sp"
+                android:background="@drawable/customshape4"
+                android:textStyle="bold"
+                android:padding="10dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/customshape"
+
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Status"
+                android:gravity="center_vertical"
+                android:textColor="@color/ColorPrimary"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:ems="10"
+                android:textColor="@android:color/holo_red_dark"
+                android:id="@+id/Statusd"
+                android:layout_margin="5dp"
+                android:textSize="15sp"
+                android:background="@drawable/customshape4"
+                android:textStyle="bold"
+                android:padding="10dp"
+
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="@color/ColorPrimary"/>
+    </LinearLayout>
+
+</ScrollView>

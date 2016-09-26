@@ -1,0 +1,47 @@
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    sothree:umanoPanelHeight="30dp"
+    sothree:umanoShadowHeight="0dp"
+
+   >
+
+    <include layout="@layout/eventlist"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/customshape"
+    >
+    <TextView
+        android:id="@+id/libad"
+        android:layout_width="wrap_content"
+        android:padding="2dp"
+
+        android:focusable="true"
+        android:layout_height="30dp"
+        android:gravity="center|top"
+        android:background="@drawable/customcolor2"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+
+        android:textColor="#ffffff"
+        android:singleLine="true"
+        android:text="Slide Up to View Subscriptions and  Facilities Provided By Library"
+        android:textSize="16sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        >
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/adtemp"/>
+    </ScrollView>
+</LinearLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title            :"
+        android:textStyle="bold"
+        android:textColor="@color/ColorPrimaryDark"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LET US C"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:id="@+id/resTitle"
+        android:textColor="@color/ColorPrimary"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author(s)  :"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/ColorPrimaryDark"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YASHAVANT KANETKAR"
+            android:textSize="15sp"
+            android:id="@+id/resAuthor"
+            android:textStyle="italic"
+            android:textColor="@color/ColorPrimary"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publisher  :"
+            android:textStyle="bold"
+            android:textColor="@color/ColorPrimaryDark"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BPB PUBLICATIONS"
+            android:id="@+id/resPublisher"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColor="@color/ColorPrimary"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edition       :"
+            android:textStyle="bold"
+            android:textColor="@color/ColorPrimaryDark"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:id="@+id/resEdition"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColor="@color/ColorPrimary"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location    :"
+            android:textStyle="bold"
+            android:textColor="@color/ColorPrimaryDark"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3rd Floor, C3R5"
+            android:id="@+id/resLoc"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColor="@color/ColorPrimary"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/customshape4"
+       android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="Available Copies :"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/resCopies"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+</LinearLayout>

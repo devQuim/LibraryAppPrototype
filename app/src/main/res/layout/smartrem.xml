@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    sothree:umanoPanelHeight="50dp"
+    sothree:umanoShadowHeight="0dp"
+
+    >
+<include layout="@layout/smartremlist"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/customshape"
+     >
+        <TextView
+            android:id="@+id/libad"
+            android:layout_width="match_parent"
+            android:padding="2dp"
+
+            android:focusable="true"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@color/ColorPrimary"
+
+            android:fadingEdge="horizontal"
+            android:textColor="#ffffff"
+            android:singleLine="true"
+            android:text="New Reminder"
+            android:textStyle="bold"
+
+            android:textSize="22sp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/customshape4"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="*Book Name :"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="@color/ColorPrimaryDark"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters|textMultiLine"
+            android:ems="10"
+            android:id="@+id/issbook"
+            android:layout_margin="5dp"
+            android:textColor="@color/ColorPrimary"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/customshape4"
+
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="*Issuing Date :"
+            android:gravity="center_vertical"
+            android:textColor="@color/ColorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customshape4"
+            android:textColor="@color/ColorPrimary"
+            android:id="@+id/issdate"
+            android:text="Select Date"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginBottom="10dp"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Reminder"
+            android:layout_margin="2dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/submit"
+
+            android:id="@+id/setiss"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>
