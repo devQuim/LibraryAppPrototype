@@ -167,7 +167,7 @@ TextView titled,authord,isbnd,publisherd,copiesd,remarksd,rated,statusd;
             @Override
             protected String doInBackground(Void... params) {
 
-                String s =sendGetRequestParam("http://myperiyar.esy.es/delRecomm.php?ID=", GetAlImage3.id[ii]);
+                String s =sendGetRequestParam("http://xyz.php?ID=", GetAlImage3.id[ii]);
                 return s;
             }
         }
