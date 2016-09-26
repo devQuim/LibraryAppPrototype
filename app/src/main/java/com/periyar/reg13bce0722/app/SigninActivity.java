@@ -55,7 +55,7 @@ public class
         try {
             String username = (String) arg0[0];
 
-            String link = "http://myperiyar.esy.es/trial.php?Reg_id=" + username;
+            String link = "http://xyz.php?Reg_id=" + username;
 
 
             HttpClient client = new DefaultHttpClient();
@@ -125,8 +125,8 @@ if(!dtStart.equals("0000-00-00")) {
         e.printStackTrace();
     }
 }
-            //String photo1 = "https://academics.vit.ac.in/student/view_photo_2.asp?rgno=" + reg1;
-            String photo1="http://myperiyar.esy.es/img.php?Reg_id="+reg1;
+          
+            String photo1="http://xyz.php?Reg_id="+reg1;
 
             if (!reg1.trim().equals("null")) {
                 if (fromAut) {
