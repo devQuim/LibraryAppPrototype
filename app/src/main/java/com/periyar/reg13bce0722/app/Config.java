@@ -12,7 +12,7 @@ public class Config {
         public static final String TAG_ROLE = "Role";
         public static final String TAG_PHOTO = "Photo";
 
-        public static final String DATA_URL = "http://myperiyar.esy.es/lafret.php?page=";
+        public static final String DATA_URL = "http://xyz.php?page=";  //Your server side script's url address
 
         //JSON TAGS
         public static final String TAG_IMAGE_URL = "Photo";
