@@ -82,7 +82,7 @@ public class Home extends ActionBarActivity implements AdapterView.OnItemClickLi
     }
 
 
-    public static final String GET_IMAGE_URL = "http://myperiyar.esy.es/eventret.php";
+    public static final String GET_IMAGE_URL = "http://xyz.php";  //Your server side script's url address
     private ListView listView;
 
     public GetAlImage2 getAlImage;
