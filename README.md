@@ -7,4 +7,4 @@ Following Source code contain some interactive features such as:
 >2. Code to change audio preferences of mobile device based on GPS proximity
 >3. Incoming & Outgoing call blocker when present in Library
 >4. Other Library features such as Exploring Library books, Recommending books, Lost & Found, Smart Reminder to return, and many more...
-Thank You!
+<br><br>Thank You!
