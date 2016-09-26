@@ -26,7 +26,7 @@ public class StatusRecommTab extends android.support.v4.app.Fragment implements 
     private ListView listView;
     public GetAlImage3 getAlImage;
     public static final String BITMAP_ID = "BITMAP_ID";
-    public static final String GET_IMAGE_URL="http://myperiyar.esy.es/RecommRet.php?Reg_id=";
+    public static final String GET_IMAGE_URL="http://xyz.php?Reg_id=";
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v =inflater.inflate(R.layout.statusrecommtab,container,false);
